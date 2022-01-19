@@ -1,0 +1,21 @@
+2022-01-19T08:44:58+00:00 CRITICAL Uncaught Error: Call to undefined function ge_template_directory_uri() in C:\xampp\htdocs\wordpress\wp-content\themes\underscores\functions.php:142
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): underscores_scripts('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\script-loader.php(2083): do_action('wp_enqueue_scri...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): wp_enqueue_scripts('')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3015): do_action('wp_head')
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\underscores\header.php(20): wp_head()
+#9 C:\xampp\htdocs\wordpress\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#11 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\xampp\htdocs\wordpress\wp-content\themes\underscores\index.php(15): get_header()
+#13 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\underscores\functions.php on line 142
+
